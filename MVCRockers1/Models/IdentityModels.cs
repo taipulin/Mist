@@ -29,5 +29,7 @@ namespace MVCRockers1.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<MVCRockers.Models.Concert> Concerts { get; set; }
     }
 }
