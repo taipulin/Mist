@@ -286,6 +286,7 @@
     <Content Include="Views\MyConcerts\Details.cshtml" />
     <Content Include="Views\MyConcerts\Edit.cshtml" />
     <Content Include="Views\MyConcerts\Index.cshtml" />
+    <Content Include="Views\Home\Backstage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
