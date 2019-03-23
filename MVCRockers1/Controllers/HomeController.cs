@@ -20,9 +20,10 @@ namespace MVCRockers1.Controllers
             return View();
         }
 
+        [MyLogginFilter]
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "What do you think?";
 
             return View();
         }
